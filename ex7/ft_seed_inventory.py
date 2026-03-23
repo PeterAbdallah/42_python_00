@@ -9,5 +9,4 @@ def ft_seed_inventory(seed_type: str, quantity: int, unit: str) -> None:
         print(seed_type.capitalize(), " seeds: covers ", quantity,
               " square meters")
     else:
-        print(seed_type.capitalize(), " seeds: ", quantity,
-              " Unknown unit type")
+        print("Unknown unit type")
